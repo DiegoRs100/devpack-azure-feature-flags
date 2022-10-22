@@ -10,16 +10,16 @@ To use the library, just perform the following configuration:
 
 ```csharp
     public static void Main(string[] args)
+    {
+        var builder = Host.CreateDefaultBuilder(args);
+
+        builder.ConfigureWebHostDefaults(webBuilder => webBuilder.ConfigureAppConfiguration((host, builder) =>
         {
-            var builder = Host.CreateDefaultBuilder(args);
+            builder.AddSmartFeatureFlags(host.HostEnvironment);
+        }).UseStartup<Startup>());
 
-            builder.ConfigureWebHostDefaults(webBuilder => webBuilder.ConfigureAppConfiguration((host, builder) =>
-            {
-                builder.AddSmartFeatureFlags(host.HostEnvironment);
-            }).UseStartup<Startup>());
-
-            builder.Build().Run();
-        }
+        builder.Build().Run();
+    }
 ```
 
 **Startup.cs**
