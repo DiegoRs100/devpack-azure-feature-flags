@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devpack.Azure.FeatureFlags", "src\Devpack.Azure.FeatureFlags\Devpack.Azure.FeatureFlags.csproj", "{EC06D4E0-4BD4-447D-ABF8-2EAE73022BA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devpack.Azure.FeatureFlags.Tests", "src\Devpack.Azure.FeatureFlags.Tests\Devpack.Azure.FeatureFlags.Tests.csproj", "{16B5271A-A61F-479D-9313-C373DA4E1E84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BC5E57BD-7AD9-4A66-8663-D945DF127697}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC06D4E0-4BD4-447D-ABF8-2EAE73022BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC06D4E0-4BD4-447D-ABF8-2EAE73022BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC06D4E0-4BD4-447D-ABF8-2EAE73022BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC06D4E0-4BD4-447D-ABF8-2EAE73022BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B5271A-A61F-479D-9313-C373DA4E1E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B5271A-A61F-479D-9313-C373DA4E1E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B5271A-A61F-479D-9313-C373DA4E1E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B5271A-A61F-479D-9313-C373DA4E1E84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D02C9370-FB90-41EF-9E5B-01D5F3580813}
+	EndGlobalSection
+EndGlobal
